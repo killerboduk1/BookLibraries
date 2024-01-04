@@ -5,7 +5,7 @@ Clone the repo
 https://github.com/killerboduk1/BookLibraries.git
 
 ```bash
-git clone 
+git clone https://github.com/killerboduk1/BookLibraries.git
 cd to BookLibraries
 composer install
 ```
