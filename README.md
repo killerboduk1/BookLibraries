@@ -9,7 +9,7 @@ git clone https://github.com/killerboduk1/BookLibraries.git
 cd to BookLibraries
 composer install
 ```
-edit the .env file and add your database credentials
+copy the .env.example to .env file and add your database credentials
 
 ```bash
 php artisan migrate
@@ -17,3 +17,9 @@ php artisan db:seed
 
 php artisan serve
 ```
+
+## To Borrow a book
+
+make a postmad post request to http://127.0.0.1:8000/api/borrow
+
+![Alt text](./postman.png "postmad post request")
